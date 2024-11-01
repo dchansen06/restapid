@@ -153,12 +153,6 @@ int callback_index (const struct _u_request * request, struct _u_response * resp
 /* Handles setup and take down */
 int main (int argc, char *argv[])	// Accepts arguments
 {
-	if ( argc == 2 && !strcmp(argv[1], "testing") )	// Allows for testing
-	{
-		printf("passed\n");
-		return 0;
-	}
-
 	struct _u_instance instance;	// Set up ulfius struct
 
 	struct sockaddr_in sockaddr;
