@@ -1,4 +1,6 @@
 [![Build](https://github.com/dchansen06/restapid/actions/workflows/build.yml/badge.svg)](https://github.com/dchansen06/restapid/actions/workflows/build.yml)
+I recommend switching to [dchansen06/sysapid](https://github.com/dchansen06/sysapid) for a (hopefully) better experience
+
 # restapid
 A short program to provide basic system information over http as a rest-api
 
