@@ -1,4 +1,4 @@
-[![Builds](https://github.com/dchansen06/restapid/actions/workflows/build.yml/badge.svg)](https://github.com/dchansen06/restapid/actions/workflows/build.yml)
+[![Build](https://github.com/dchansen06/restapid/actions/workflows/build.yml/badge.svg)](https://github.com/dchansen06/restapid/actions/workflows/build.yml)
 # restapid
 A short program to provide basic system information over http as a rest-api
 
