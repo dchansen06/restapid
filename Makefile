@@ -1,6 +1,5 @@
 CC = gcc
 
-.SILENT: all restapid
 .DEFAULT: all
 
 all: restapid
