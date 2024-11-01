@@ -1,0 +1,12 @@
+[Unit]
+Description=REST-API Program
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+#ExecStart=/path/to/restapid  # Configure to point to your binary
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
