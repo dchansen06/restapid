@@ -1,0 +1,17 @@
+name: Builds
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install dependencies
+      run: sudo apt install libulfius-dev -y --no-install-suggests --no-install-recommends
+    - name: Install dependencies
+      run: make
